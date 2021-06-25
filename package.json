@@ -4,7 +4,8 @@
   "description": "Curso de javascript para twitch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "JUGADOR=techcoder5 jest",
+	"w:test": "JUGADOR=techcoder5 jest"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/jcanadilla/javascript-twitch#readme",
   "dependencies": {
-    "jest": "^27.0.5"
+    "jest": "^27.0.5",
+    "pino": "^6.11.3",
+    "pino-pretty": "^5.1.0"
   }
 }
