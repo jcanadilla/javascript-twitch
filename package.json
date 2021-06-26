@@ -1,26 +1,30 @@
 {
-  "name": "javascript-twitch",
-  "version": "1.0.0",
-  "description": "Curso de javascript para twitch",
-  "main": "index.js",
-  "scripts": {
-    "test": "JUGADOR=techcoder5 jest",
-	"w:test": "JUGADOR=techcoder5 jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jcanadilla/javascript-twitch.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jcanadilla/javascript-twitch/issues"
-  },
-  "homepage": "https://github.com/jcanadilla/javascript-twitch#readme",
-  "dependencies": {
-    "jest": "^27.0.5",
-    "pino": "^6.11.3",
-    "pino-pretty": "^5.1.0"
-  }
+	"name": "javascript-twitch",
+	"version": "1.0.0",
+	"description": "Curso de javascript para twitch",
+	"main": "index.js",
+	"scripts": {
+		"test": "JUGADOR=techcoder5 jest",
+		"w:test": "JUGADOR=techcoder5 jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jcanadilla/javascript-twitch.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jcanadilla/javascript-twitch/issues"
+	},
+	"homepage": "https://github.com/jcanadilla/javascript-twitch#readme",
+	"dependencies": {
+		"jest": "^27.0.5",
+		"jest-cli": "^27.0.5",
+		"pino": "^6.11.3",
+		"pino-pretty": "^5.1.0"
+	},
+	"jest": {
+		"silent": true
+	}
 }
