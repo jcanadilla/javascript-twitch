@@ -4,7 +4,7 @@ const logger = require('./utils/logger');
 const wait = require('./utils/wait');
 
 const { env } = process;
-const { JUGADOR } = env;
+const { JUGADOR = 'anonymous' } = env;
 
 (async () => {
 	

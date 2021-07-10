@@ -3,7 +3,7 @@
 
 El curso tiene 2 partes:
 - Parte teórica:
-	- Carpeta /no-modificar: contiene ejemplos y teoría
+	- Carpeta /teoria: contiene ejemplos y teoría
 - Parte práctica:
 	- Carpeta /jugadores
 
@@ -22,6 +22,6 @@ Muy fácil.
 4. Cuando hayas terminado puedes ejecutar:
 
 ```javascript;
- npm run start
+ npm run play
 ```
 5. ¿Qué puntuación has sacado?
