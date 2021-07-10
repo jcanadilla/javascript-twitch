@@ -4,6 +4,7 @@ const logger = require('pino')({
 		levelFirst: true,
 		translateTime: true
 	},
+	level: 'debug'
 });
 
 module.exports = logger;

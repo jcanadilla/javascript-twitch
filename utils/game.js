@@ -10,9 +10,8 @@ module.exports = async () => {
 	const jestConfig = {
 		roots: ['./tests'],
 		testRegex: '\\.spec\\.js$',
-		silent: true,
 		useStderr: true,
-		verbose: false
+		verbose: true,
 	};
 
 	// Run the Jest asynchronously

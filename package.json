@@ -4,8 +4,9 @@
 	"description": "Curso de javascript para twitch",
 	"main": "index.js",
 	"scripts": {
-		"test": "JUGADOR=techcoder5 jest",
-		"w:test": "JUGADOR=techcoder5 jest"
+		"play": "node .",
+		"test": "JUGADOR=TechCoder5 jest",
+		"w:test": "$env:JUGADOR='TechCoder5' & jest --verbose"
 	},
 	"repository": {
 		"type": "git",
@@ -19,6 +20,7 @@
 	},
 	"homepage": "https://github.com/jcanadilla/javascript-twitch#readme",
 	"dependencies": {
+		"cfonts": "^2.9.3",
 		"jest": "^27.0.5",
 		"jest-cli": "^27.0.5",
 		"pino": "^6.11.3",
