@@ -6,7 +6,8 @@
 	"scripts": {
 		"play": "node .",
 		"test": "JUGADOR=TechCoder5 jest",
-		"w:test": "$env:JUGADOR='TechCoder5' & jest --verbose"
+		"w:test": "$env:JUGADOR='TechCoder5' & jest --verbose",
+		"plop": "plop"
 	},
 	"repository": {
 		"type": "git",
@@ -24,7 +25,8 @@
 		"jest": "^27.0.5",
 		"jest-cli": "^27.0.5",
 		"pino": "^6.11.3",
-		"pino-pretty": "^5.1.0"
+		"pino-pretty": "^5.1.0",
+		"plop": "^2.7.4"
 	},
 	"jest": {
 		"silent": true
